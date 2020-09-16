@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Controller : MonoBehaviour {
-	
+public class Controller2 : MonoBehaviour {
+
 	// public variables
 	public float moveSpeed = 3.0f;
 	public float gravity = 9.81f;
@@ -16,7 +16,7 @@ public class Controller : MonoBehaviour {
 		// the result rather than continually use etComponent() in the Update function
 		myController = gameObject.GetComponent<CharacterController>();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		// Determine how much should move in the z-direction
@@ -27,7 +27,7 @@ public class Controller : MonoBehaviour {
 
 		// Convert combined Vector3 from local space to world space based on the position of the current gameobject (player)
 		Vector3 movement = transform.TransformDirection(movementZ+movementX);
-		
+
 		// Apply gravity (so the object will fall if not grounded)
 		movement.y -= gravity * Time.deltaTime;
 
