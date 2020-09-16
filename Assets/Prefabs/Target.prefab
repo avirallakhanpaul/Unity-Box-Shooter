@@ -108,4 +108,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   motionState: 1
   spinSpeed: 180
-  motionValue: 0.1
+  motionValue: 0.02
