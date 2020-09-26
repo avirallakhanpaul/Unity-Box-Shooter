@@ -715,12 +715,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4504554242798747720, guid: af6b8f766c8fbad49a8971410c903413,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504554242798747723, guid: af6b8f766c8fbad49a8971410c903413,
+        type: 3}
+      propertyPath: m_Text
+      value: RESTART CHECKPOINT
+      objectReference: {fileID: 0}
     - target: {fileID: 4504554242798747726, guid: af6b8f766c8fbad49a8971410c903413,
         type: 3}
       propertyPath: m_Name
       value: Play Again Text (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4504554242798747721, guid: af6b8f766c8fbad49a8971410c903413, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: af6b8f766c8fbad49a8971410c903413, type: 3}
 --- !u!1 &468311588
 GameObject:
@@ -1152,7 +1163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &656606900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1745,6 +1756,25 @@ MonoBehaviour:
     type: 3}
   power: 50
   shootSFX: {fileID: 8300000, guid: c96ad3bbb7e994ae782d9a1f782e4d9b, type: 3}
+--- !u!1 &1259251479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4504554242798747726, guid: af6b8f766c8fbad49a8971410c903413,
+    type: 3}
+  m_PrefabInstance: {fileID: 4504554241873974413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1259251480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259251479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a53a3bfdad39548bd1434c7c9e1f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfLevelToLoad: Level2
 --- !u!1 &1260766440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2135,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1489475588}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1542975539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4504554242798747726, guid: af6b8f766c8fbad49a8971410c903413,
+    type: 3}
+  m_PrefabInstance: {fileID: 358779116}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1542975540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542975539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a53a3bfdad39548bd1434c7c9e1f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfLevelToLoad: Level2
 --- !u!4 &1621965236 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4504554242798747717, guid: af6b8f766c8fbad49a8971410c903413,
@@ -2716,10 +2765,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4504554242798747720, guid: af6b8f766c8fbad49a8971410c903413,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504554242798747723, guid: af6b8f766c8fbad49a8971410c903413,
+        type: 3}
+      propertyPath: m_Text
+      value: RESTART CHECKPOINT
+      objectReference: {fileID: 0}
     - target: {fileID: 4504554242798747726, guid: af6b8f766c8fbad49a8971410c903413,
         type: 3}
       propertyPath: m_Name
       value: Play Again Text
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4504554242798747721, guid: af6b8f766c8fbad49a8971410c903413, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: af6b8f766c8fbad49a8971410c903413, type: 3}
